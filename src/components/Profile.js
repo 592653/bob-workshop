@@ -7,22 +7,22 @@ function Profile() {
       alignItems="center"
       textAlign="center"
       py={5}
-      bgcolor="#fdf9fd"
+      bgcolor="#caa6f8"
       borderRadius={3}
       boxShadow={3}
       spacing={2}
     >
       <Avatar
-        src="/Profilbilde bunad 2.jpg"
+        src="/Pb.jpg"
         alt="Blomst"
         sx={{
-          width: 150,
-          height: 150,
+          width: 200,
+          height: 200,
           margin: "auto",
-          border: "4px solid #d11410",
+          border: "4px solid #FFFFFF",
         }}
       />
-      <Typography variant="h4" gutterBottom color="#d11410">
+      <Typography variant="h4" gutterBottom color="#FFFFFF">
         Bodil Markhus
       </Typography>
     </Stack>

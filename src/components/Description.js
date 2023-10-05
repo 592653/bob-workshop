@@ -3,8 +3,8 @@ import { Typography, Box } from "@mui/material";
 
 function Description() {
   return (
-    <Box py={5} bgcolor="#e8eaf6" borderRadius={3} boxShadow={3} mt={4} px={3}>
-      <Typography variant="h6" gutterBottom color="#d11410">
+    <Box py={5} bgcolor="#caa6f8" borderRadius={3} boxShadow={3} mt={4} px={3}>
+      <Typography variant="h6" gutterBottom color="#FFFFFF">
         Om Meg
       </Typography>
       <Typography>

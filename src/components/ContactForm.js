@@ -59,8 +59,8 @@ function ContactForm() {
   };
 
   return (
-    <Box py={5} bgcolor="#ffffff" borderRadius={3} boxShadow={3} mt={4} px={3}>
-      <Typography variant="h6" gutterBottom color="#d11410">
+    <Box py={5} bgcolor="#caa6f8" borderRadius={3} boxShadow={3} mt={4} px={3}>
+      <Typography variant="h6" gutterBottom color="#FFFFFF">
         Kontakt Meg
       </Typography>
 
@@ -95,7 +95,7 @@ function ContactForm() {
             color="primary"
             disabled={loading}
           >
-            {loading ? <CircularProgress size={24} color="inherit" /> : "Send"}
+            {loading ? <CircularProgress size={24} color="#FFFFFF" /> : "Send"}
           </Button>
         </Stack>
       </Stack>
