@@ -19,10 +19,10 @@ function Profile() {
           width: 150,
           height: 150,
           margin: "auto",
-          border: "4px solid #ddbce6",
+          border: "4px solid #d11410",
         }}
       />
-      <Typography variant="h4" gutterBottom color="#ee2925">
+      <Typography variant="h4" gutterBottom color="#d11410">
         Bodil Markhus
       </Typography>
     </Stack>

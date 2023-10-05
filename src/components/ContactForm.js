@@ -34,7 +34,7 @@ function ContactForm() {
         },
         body: JSON.stringify({
           ...formData,
-          access_key: "HER-MÅ-DU-LEGGE-INN-DIN-ACCESS-KEY", // Get your access key from https://web3forms.com/
+          access_key: "1e02e951-1a44-4c8e-9b34-9aba36b8b2ef", // Get your access key from https://web3forms.com/
         }),
       });
 
@@ -60,7 +60,7 @@ function ContactForm() {
 
   return (
     <Box py={5} bgcolor="#ffffff" borderRadius={3} boxShadow={3} mt={4} px={3}>
-      <Typography variant="h6" gutterBottom color="#3f51b5">
+      <Typography variant="h6" gutterBottom color="#d11410">
         Kontakt Meg
       </Typography>
 
